@@ -9,6 +9,10 @@ app.get('/',(req,res)=>{
     res.send('Hello World');
     
 })
+app.get('/product',(req,res)=>{
+    res.send('Hello product');
+    
+})
 
 app.listen(4000,()=>{
     console.log('Server is running on port 4000');
